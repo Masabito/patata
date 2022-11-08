@@ -4,7 +4,7 @@ Bot De Telegram : OwnCloudUploader, Descargador gratis de contenido desde intern
 # Deploy Usando Git Win Y Heroku Cli Desde PC
 ```
 (CMD)
-git clone https://github.com/KrixtO1997/OwncloudKx
+git clone https://github.com/Masabito/patata
 git init
 git add .
 git commit -m "OK"
@@ -22,4 +22,4 @@ git push heroku master
 ```
 
 # Deploy Directo (Heroku)
-[![Heroku Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/KrixtO1997/OwncloudKx)
+[![Heroku Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Masabito/patata)

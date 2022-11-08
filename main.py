@@ -31,7 +31,7 @@ def send_root(update,bot,message,user_info,cloud=False,PROXY_OBJ=None):
         for item in listdir:
                 i+=1
                 fname = item
-                reply += '/sync_'+str(i) + ' - ' + fname + '\n'
+                reply += str(i) + ' - ' + fname + '\n'
         pass
     else:
         for item in listdir:
@@ -39,7 +39,7 @@ def send_root(update,bot,message,user_info,cloud=False,PROXY_OBJ=None):
                 fname = item
                 fsize = get_file_size(config.BASE_ROOT_PATH + update.message.sender.username + '/' + item)
                 prettyfsize = sizeof_fmt(fsize)
-                reply += '/sync_'+str(i) + ' - ' + fname + ' + ' /rm_'+str(i) + [' + prettyfsize + ']\n'
+                reply += str(i) + ' - ' + fname + ' +str(i) + [' + prettyfsize + ']\n'
     if message:
         bot.editMessageText(message,reply)
     else:
